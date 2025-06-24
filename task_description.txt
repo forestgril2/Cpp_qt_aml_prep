@@ -1,0 +1,151 @@
+Design System Developer (IRC267795)
+
+Job Description
+• Successfully completed university degree (university of applied sciences,
+university/technical college, BA/DH) in computer science, information
+technology, or comparable
+• An agile and professional mindset focused on high software quality
+• Expert knowledge of:
+    ▪ QTQuick/QML
+    ▪ Qt Core modules
+    ▪ Qt’s signal&slots and meta object system
+• Strong knowledge of modern C++ (11,14,17)
+    ▪ Template Meta-programming
+    ▪ Lambda expressions
+    ▪ Move semantics and rvalue references
+    ▪ Concurrency
+
+Soft skills:
+• open-minded attitude
+• Experience in and appreciation of interdisciplinary collaboration with
+developers, designers and usability experts
+• strong will to solve problems
+• team player with excellent communication skills
+
+Job Responsibilities
+• Develop and maintain reusable branded Design System components in C++ and
+QML
+• Alignment of technical, design and UX requirements together with the brand
+designers and usability experts.
+• Support project developers in using the design system components
+• Initiate and conduct code reviews with projects and other teams
+
+Department/Project Description
+Embedded SW of modern home appliances are complex systems divided into a number of nodes connected to the bus network, measuring e.g. pressure, temperature, mechanical elements movements in real time. Collected data is processed and used to control motors, heaters, valves, pumps and fans. On top the system must stays interconnected with other devices of modern smart home solutions. Would you like to become a member of the team that develops such devices software?
+If you feel, this is something for you - don't hesitate, just apply!
+The client has already seen your profile and is interested in the interview with you tomorrow.
+Could you please advise if you can join the interview tomorrow at 14:00 ot 15:30?
+The interview will take 30 minutes.
+
+
+To na co zwracają uwagę:
+
+Mateusz Kosikowski, Wczoraj 15:56
+
+1234code quality - bo to, co rozwijają, jest potem używane przez inne projekty/produkty
+czy ktoś jest chętny na wykonywanie Code/Design Review, sesje burzy mózgów (brainstorming)
+gotowość na pracę w SRCUMie
+
+Ty, 10:41
+
+dzięki
+
+Mateusz Kosikowski, 11:05
+
+no i co ważne - są dwie role, które oni oferują. Wkleje Ci tu ich opis:
+2025-ProgramUI-Introduction_short.pdf
+Pierwsza rola - UI Framework Developer. Czyli programista, który będzie rozwijał na wszystkie platformy wspólny framework do tworzenia GUI dla sprzętów AGD. A więc rozwiązanie, które będzie generyczne, a potem będzie użyte w pralce, piekarniku, zmywarce - przez stosowne zespoły projektowe. Tutaj bardziej C++ niż samo Qt się liczy. Jest to rola, która wiąże się z dużą dozą pracy koncepcyjnej (projektowanie, burze mózgów, design review, code reivew)
+Druga rola - Design System Developer - programista, który będzie budowal i utrzymywał bazę elementów graficznych dla GUI. Te elementy będą potem wykorzystywane przez stosowne zespoły projektowe (np. jeden tworzący piekarnik, inny - ekspres do kawy, etc.). Tutaj bardziej wiedza z Qt/QML się liczy
+do której roli byś się bardziej widział? :)
+
+Description for both in slides goes as:
+
+2024-07-05
+BSH Home A
+What is Program UI?
+Short Introduction of the
+products and teams
+
+The main aim of the UI program is to keep the development of user interfaces at BSH
+fast, technically perfect and competitive.
+To achieve this goal, we are focusing on two main areas:
+On the one hand the UI frameworks and on the other hand the design systems for the
+graphical user interfaces.
+
+UI Frameworks - Definition
+• Generic Software products
+• independent of brand or category
+• available for all classes of user interfaces (from non-TFT to Premium TFT value class)
+• all follow similar principles and architectural patterns
+“The aim of the frameworks is to make life easier for software developers for user interfaces in projects. By
+enabling them to use an established, well-documented framework that provides them with the necessary
+features, support and guidance from the very first line of code.
+
+
+UI Frameworks – Product overview
+Framework for Premium TFT projects
+• uses Qt6
+• advanced animations and multimedia
+Framework for low-cost TFT projects
+• uses Qt for MCU
+• resource efficient framework for smaller TFT displays
+Framework for non - TFT projects
+• plain C++
+• provides interfaces to SPIA
+
+
+Design System - Definition
+It is an accessible collection of
+reusable UI components.
+5
+It is the software part of our design architecture
+and is constantly evolving.
+The design system is brand specific and can be
+used across categories and products.
+It is based on clear standards and can be
+assembled to create any number of interfaces.
+
+Design System - Achievements
+Resolved Challenges: Improved cross-disciplinary
+collaboration, eliminated redundancy and inconsistencies,
+and reduced pressure to make late changes and fix bugs.
+Advantages of using DS include enhanced shared
+understanding, component reuse, clear specifications,
+uninterrupted development, and interface consistency.
+Effective results: The system is user-friendly and promotes
+efficient collaboration, resulting in significant time savings
+in front-end development (up to 80% with existing models
+and an average of 50% overall).*
+Implementing the Design System significantly improves
+efficiency, quality and team satisfaction in project workflows.
+7
+*Based on the findings from the Kadlu refrigerator project in RNA
+iF Gold Statement
+“The logical and consistent design language of this
+design system for user interfaces, combined with its
+modular structure, allows product teams at Bosch to
+create a variety of interfaces from a single library of
+design components. The result is a visually stunning
+symbiosis of physical product and digital UI that was
+always going to be a shoo-in for an iF gold award!
+
+
+What else?
+Team UI Framework not only develops the product, but also delivers:
+• expert knowledge of C++ and QML
+• expert knowledge of how Qt can be optimally used on the system
+master platform
+• support for the integration teams to get the maximum
+performance out of the (G)UI
+• drives knowledge transfer to customers via a community of practice
+• 25-50 international participants from all (G)UI projects
+• Collaborate with software and architecture teams to drive platform
+development for ELP and SyMaNA
+
+=====================
+- This was a job desription - most of what I know. Now I need to prepare to a short 30 mins purely technical interview, they will decide if I am better suited for UI framework or component design. I prefer UI framework, as it is more C++ concept work, but both are ok.
+
+I have around 12 years in C++ and around 5y in Qt/qml. I have around 2h today and around 3h tomorrow for a preparation. Ideally we would try to cover most of the topics this german company could ask today and deepen the topics tomorrow. 
+
+
+Please create a plan, which could be a README.md file, a general C++/Qt/qml preparation project. We will work on the topics and fill the content afterwards.   
