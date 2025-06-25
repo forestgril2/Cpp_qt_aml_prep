@@ -9,4 +9,5 @@
 - Threading and concurrency: std::thread, std::async, thread pools, and synchronization primitives
 - Exception safety and RAII in large-scale UI codebases
 - Type traits and SFINAE for generic UI components
-- Constexpr and compile-time computation in UI logic 
+- Constexpr and compile-time computation in UI logic  
+  [See code example](code_examples/modern_cpp_features.cpp#L9-L334) 
